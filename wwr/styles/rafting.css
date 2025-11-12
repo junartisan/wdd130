@@ -58,14 +58,11 @@ nav, p, section, article {
     width: 95%;
     padding:10px;
     text-align: center;
+    opacity: 0.8;
     background-color: var(--accent2-color);
-    color:#000; /* white text */
+    color:#000; /* Black text */
 }
 .hero article img {
     float: right;
     width: 125px;
-    padding-top: 10px;
-    
-    
-    
 }
