@@ -66,3 +66,6 @@ nav, p, section, article {
     float: right;
     width: 125px;
 }
+section h2 {
+    color: var(--secondary-color);
+}
