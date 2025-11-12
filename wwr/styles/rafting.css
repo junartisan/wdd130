@@ -25,12 +25,12 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-nav, p, section {
+nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
 
-socialmedia a {
+.socialmedia a {
     text-decoration: none;
 }
 .hero {
@@ -41,7 +41,7 @@ socialmedia a {
     width: 100%;
     height: auto;
 }
-.hero article h1 {
+h1 {
     position:absolute;
     top:20px;
     width: 100%;
@@ -51,7 +51,21 @@ socialmedia a {
     background-color: var(--accent1-color);
     color:#fff; /* white text */
 }
+
+article {
+    position:absolute;
+    bottom:20px;
+    width: 95%;
+    padding:10px;
+    text-align: center;
+    background-color: var(--accent2-color);
+    color:#000; /* white text */
+}
 .hero article img {
     float: right;
     width: 125px;
+    padding-top: 10px;
+    
+    
+    
 }
