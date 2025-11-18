@@ -8,6 +8,10 @@ body {
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    -ms-flex-align: center;
+    justify-content: center;
+    
 }
 
 .flex-item {
