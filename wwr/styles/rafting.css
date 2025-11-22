@@ -30,25 +30,25 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
-.navbar {
+.menu {
     display: flex;
     justify-content:space-around;
     margin:0;
     padding: 0;
 }
-.navbar ul {
+.menu ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
      
 }
 
-.navbar li  {
+.menu li  {
     flex: content;
     
     
 }
-.navbar a {
+.menu a {
     display: block;
     text-align: center;
     padding: 1rem;
