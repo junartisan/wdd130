@@ -110,6 +110,7 @@ nav, p, section, article {
 .hero article img {
     justify-content: flex-end;
     width: 125px;
+    float:right;
 }
 
 section {
