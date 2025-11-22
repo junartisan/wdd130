@@ -31,6 +31,8 @@ header {
 }
 
 .navbar {
+    display: flex;
+    justify-content:space-around;
     margin:0;
     padding: 0;
 }
@@ -93,7 +95,7 @@ nav, p, section, article {
 .hero article {
     position:absolute;
     flex-direction: row-reverse;
-    bottom:250px;
+    bottom:120px;
     width: 95%;
     padding:10px;
     opacity: 0.8;
@@ -141,9 +143,9 @@ section .content p{
 
 section .content img {
     width: 150px;
-    height: 150px;
+    height: 110px;
     align-items: center;
-    justify-content: center;   
+    
 }
 
 section .highlights {
