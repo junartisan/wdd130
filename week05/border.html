@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2 with Bordered and Underlined Text</title>
+    <style>
+        h2 {
+            display: inline-block; /* Allows the h2 to shrink-wrap its content */
+            margin: 20px; /* Example margin */
+        }
+
+        h2 span {
+            border: 2px solid black; /* Border around the text */
+            padding: 5px 10px; /* Spacing between text and border */
+            text-decoration: underline; /* Underline the text */
+            text-underline-offset: 5px; /* Adjusts the underline position */
+            display: inline-block; /* Ensures padding and border apply correctly */
+        }
+    </style>
+</head>
+<body>
+    <h2><span>My Bordered and Underlined Title</span></h2>
+</body>
+</html>
