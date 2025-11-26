@@ -199,7 +199,7 @@ footer .socialmedia img{
     row-gap: 20px;
     grid-template-areas: 
     "box-1 box-1"
-    "box-2 box-3"
+    "box-2 box-3";
     
 }
 .box-1 { 
