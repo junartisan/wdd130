@@ -192,32 +192,35 @@ footer .socialmedia img{
 .socialmedia a {
     text-decoration: none;
 }
-.container {
-    display: grid;
-    width: 840px;
-    column-gap: 10px;
-    row-gap: 20px;
-    grid-template-areas: 
-    "box-1 box-1"
-    "box-2 box-3";
-    
-}
-.box-1 { 
+
+.contact { 
     place-items: center;
     text-align: center;
+    margin-bottom: 15px;
 }
-.box-2 {
+
+.container {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+    
+}
+.box-2 { 
+    width: 400px;
     
 }
 .box-3 {
-
-    padding: 10px;   
+    width: 400px;
+    
 }
 
 .form-grid {
     display: grid;
     gap:10px;
     max-width: 400px;
+    
 }
 .form-row {
     display: grid;
