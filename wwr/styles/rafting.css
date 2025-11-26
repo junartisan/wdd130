@@ -66,7 +66,6 @@ h1, h2 {
     color: var(--primary-color);
 }
 nav, p, section, article {
-
     margin: 16px;
     padding: 8px;
     display: flex;
@@ -117,6 +116,7 @@ section {
     display: flex;
     flex-flow: column;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 section h2 {
@@ -191,4 +191,86 @@ footer .socialmedia img{
 
 .socialmedia a {
     text-decoration: none;
+}
+.container {
+    display: grid;
+    width: 840px;
+    column-gap: 10px;
+    row-gap: 20px;
+    grid-template-areas: 
+    "box-1 box-1"
+    "box-2 box-3"
+    
+}
+.box-1 { 
+    place-items: center;
+    text-align: center;
+}
+.box-2 {
+    
+}
+.box-3 {
+
+    padding: 10px;   
+}
+
+.form-grid {
+    display: grid;
+    gap:10px;
+    max-width: 400px;
+}
+.form-row {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    column-gap: 20px;
+    align-items: center;
+}
+.form-row input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.form-row-2 {
+    display: grid;
+    column-gap: 20px;
+    max-width: 400px;
+    grid-template-columns: 120px 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-row-2-input {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    column-gap: 10px;
+}
+
+.form-row-2-input label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-message {
+    display: grid;
+}
+.form-message textarea{
+    padding: 10px
+}
+.form-row-3 {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    column-gap: 10px;
+}
+
+.form-button {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.form-button button {
+    margin:10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    border-radius: 6px;
+
 }
