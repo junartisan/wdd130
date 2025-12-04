@@ -160,7 +160,7 @@ section .highlights {
     justify-content:space-between;
 }
 
-.highlights book {
+.highlights button {
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -168,11 +168,14 @@ section .highlights {
     color: paleturquoise;
     border-radius: .3rem;
     margin-top: 2px;
+    width: 100%;
+    
 }
-book a{
+button a{
     color: paleturquoise;
+    text-decoration: none;
 }
-book a:hover {
+button a:hover {
     color: palevioletred;
  
 }
@@ -347,15 +350,20 @@ footer .socialmedia img{
     width: 100%;
     
 }
-.trips_container book a{
+.trips_container button {
     display: flex;
     padding: 10px;
     border-radius: 6px;
     background-color: #055a05;
     justify-content: center;
     text-decoration: none;
-    
-    
+    width: 100%;    
+}
+.trips_container button:hover {
+    background-color: aqua;
+}
+.trips_container button:hover a {
+    color: #000;
 }
 .trips_container imgcaption {
     background-color: #222222;
