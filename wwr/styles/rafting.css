@@ -30,6 +30,9 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
+header img {
+    width: 160px;
+}
 .menu {
     display: flex;
     justify-content:space-around;
@@ -64,13 +67,13 @@ header {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
     display: flex;
 }
-
 
 .hero {
     position: relative;
@@ -155,7 +158,23 @@ section .highlights {
     flex-flow: row;
     align-items: center;
     justify-content:space-between;
-    
+}
+
+.highlights book {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: paleturquoise;
+    border-radius: .3rem;
+    margin-top: 2px;
+}
+book a{
+    color: paleturquoise;
+}
+book a:hover {
+    color: palevioletred;
+ 
 }
 figure {
   border: thin silver solid;
@@ -199,14 +218,33 @@ footer .socialmedia img{
     margin-bottom: 15px;
 }
 
-.container {
+.home_container {
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     row-gap: 20px;
+    margin-top: 10px;
+}
+
+.slider {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    left:100%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     
 }
+
 .box-2 { 
     width: 400px;
     
@@ -275,5 +313,57 @@ footer .socialmedia img{
     margin:10px 0 10px 0;
     padding: 10px 0 10px 0;
     border-radius: 6px;
+    background-color: #055a05;
+    color: #fff;
 
 }
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+    margin-top: 10px;
+}
+.testimonials img {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.trips_title {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.trips_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    gap: 10px;
+    
+}
+.trips_container img {
+    display: flex;
+    width: 100%;
+    
+}
+.trips_container book a{
+    display: flex;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #055a05;
+    justify-content: center;
+    text-decoration: none;
+    
+    
+}
+.trips_container imgcaption {
+    background-color: #222222;
+    color: white;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
